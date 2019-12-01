@@ -14,11 +14,6 @@
                 <string>521 196 76 18</string>
             </attr>
         </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>355 294 28 18</string>
-            </attr>
-        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -47,11 +42,6 @@
                 <string>500 0 386 149 184 160 386 149 11</string>
             </attr>
         </edge>
-        <edge from="n0" to="n2">
-            <attr name="label">
-                <string>detonando</string>
-            </attr>
-        </edge>
         <edge from="n1" to="n1">
             <attr name="label">
                 <string>type:Personagem</string>
@@ -60,11 +50,6 @@
         <edge from="n1" to="n0">
             <attr name="label">
                 <string>a</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>bool:</string>
             </attr>
         </edge>
     </graph>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="inicia_detonacao_bomba">
+        <attr name="enabled">
+            <string>false</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -17,16 +20,6 @@
         <node id="n4">
             <attr name="layout">
                 <string>216 44 34 36</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>436 52 27 18</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>387 125 23 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -57,34 +50,6 @@
         <edge from="n4" to="n4">
             <attr name="label">
                 <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n2">
-            <attr name="label">
-                <string>detonando</string>
-            </attr>
-            <attr name="layout">
-                <string>405 -3 255 61 428 61 11</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n3">
-            <attr name="label">
-                <string>new:detonando</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>bool:false</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>bool:true</string>
             </attr>
         </edge>
     </graph>

@@ -16,7 +16,7 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>243 227 43 18</string>
+                <string>175 236 43 18</string>
             </attr>
         </node>
         <node id="n0">
@@ -26,27 +26,27 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>432 145 38 36</string>
+                <string>415 148 38 36</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>107 155 76 18</string>
+                <string>25 153 76 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>437 56 76 18</string>
+                <string>413 70 76 18</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>330 57 34 36</string>
+                <string>325 62 34 36</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>333 229 38 36</string>
+                <string>319 236 38 36</string>
             </attr>
         </node>
         <node id="n9">
@@ -64,12 +64,7 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n5" to="n2">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n0">
+        <edge from="n5" to="n8">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -79,7 +74,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n5" to="n8">
+        <edge from="n5" to="n2">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n0">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -94,14 +94,14 @@
                 <string>type:Bomba</string>
             </attr>
         </edge>
-        <edge from="n1" to="n5">
-            <attr name="label">
-                <string>fica_no</string>
-            </attr>
-        </edge>
         <edge from="n1" to="n3">
             <attr name="label">
                 <string>timer</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
+            <attr name="label">
+                <string>fica_no</string>
             </attr>
         </edge>
         <edge from="n0" to="n0">

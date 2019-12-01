@@ -6,52 +6,42 @@
         </attr>
         <node id="n1">
             <attr name="layout">
-                <string>384 40 17 18</string>
+                <string>369 27 17 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>430 188 7 18</string>
+                <string>374 210 7 18</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>359 113 19 19</string>
+                <string>368 120 19 19</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>207 163 17 18</string>
+                <string>196 121 17 18</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>461 105 19 19</string>
+                <string>462 29 19 19</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>585 101 23 18</string>
+                <string>562 29 23 18</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>491 186 7 18</string>
+                <string>469 91 7 18</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
                 <string>180 26 43 18</string>
-            </attr>
-        </node>
-        <node id="n8">
-            <attr name="layout">
-                <string>102 205 34 36</string>
-            </attr>
-        </node>
-        <node id="n9">
-            <attr name="layout">
-                <string>104 333 27 18</string>
             </attr>
         </node>
         <edge from="n1" to="n1">
@@ -94,6 +84,11 @@
                 <string>prod:</string>
             </attr>
         </edge>
+        <edge from="n5" to="n7">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
         <edge from="n5" to="n1">
             <attr name="label">
                 <string>arg:0</string>
@@ -102,11 +97,6 @@
         <edge from="n5" to="n6">
             <attr name="label">
                 <string>int:gt</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n7">
-            <attr name="label">
-                <string>arg:1</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -132,31 +122,6 @@
         <edge from="n0" to="n1">
             <attr name="label">
                 <string>del:timer</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n9">
-            <attr name="label">
-                <string>detonando</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>bool:true</string>
             </attr>
         </edge>
     </graph>

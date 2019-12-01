@@ -11,17 +11,17 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>107 271 7 18</string>
+                <string>221 270 7 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>201 42 34 36</string>
+                <string>210 62 34 36</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>22 46 76 18</string>
+                <string>68 71 76 18</string>
             </attr>
         </node>
         <node id="n5">
@@ -29,24 +29,19 @@
                 <string>290 373 336 36</string>
             </attr>
         </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>378 52 23 18</string>
-            </attr>
-        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Bomba</string>
             </attr>
         </edge>
-        <edge from="n0" to="n4">
-            <attr name="label">
-                <string>fica_no</string>
-            </attr>
-        </edge>
         <edge from="n0" to="n1">
             <attr name="label">
                 <string>timer</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n4">
+            <attr name="label">
+                <string>fica_no</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -62,11 +57,6 @@
         <edge from="n4" to="n4">
             <attr name="label">
                 <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n3">
-            <attr name="label">
-                <string>detonando</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -92,11 +82,6 @@
         <edge from="n5" to="n5">
             <attr name="label">
                 <string>rem:usar flag para começo e fim da explosão</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>bool:true</string>
             </attr>
         </edge>
     </graph>

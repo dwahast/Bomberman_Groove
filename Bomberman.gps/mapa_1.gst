@@ -334,6 +334,11 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
+        <edge from="n0" to="n39">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n0" to="n10">
             <attr name="label">
                 <string>v</string>
@@ -343,11 +348,6 @@
             </attr>
         </edge>
         <edge from="n0" to="n5">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n39">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -382,12 +382,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n7" to="n10">
+        <edge from="n7" to="n1">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n7" to="n1">
+        <edge from="n7" to="n10">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -407,12 +407,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n9" to="n11">
+        <edge from="n9" to="n32">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n9" to="n32">
+        <edge from="n9" to="n11">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -427,7 +427,7 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n10" to="n7">
+        <edge from="n10" to="n44">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -437,7 +437,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n10" to="n44">
+        <edge from="n10" to="n7">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -450,11 +450,6 @@
         <edge from="n11" to="n11">
             <attr name="label">
                 <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n11" to="n9">
-            <attr name="label">
-                <string>v</string>
             </attr>
         </edge>
         <edge from="n11" to="n12">
@@ -470,6 +465,11 @@
                 <string>v</string>
             </attr>
         </edge>
+        <edge from="n11" to="n9">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n12" to="n12">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -478,11 +478,6 @@
         <edge from="n12" to="n12">
             <attr name="label">
                 <string>flag:bloco</string>
-            </attr>
-        </edge>
-        <edge from="n12" to="n11">
-            <attr name="label">
-                <string>v</string>
             </attr>
         </edge>
         <edge from="n12" to="n1">
@@ -495,19 +490,24 @@
                 <string>v</string>
             </attr>
         </edge>
+        <edge from="n12" to="n11">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n22" to="n22">
             <attr name="label">
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n22" to="n23">
-            <attr name="label">
-                <string>id</string>
-            </attr>
-        </edge>
         <edge from="n22" to="n9">
             <attr name="label">
                 <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n22" to="n23">
+            <attr name="label">
+                <string>id</string>
             </attr>
         </edge>
         <edge from="n23" to="n23">
@@ -530,12 +530,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n1" to="n7">
+        <edge from="n1" to="n45">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n1" to="n45">
+        <edge from="n1" to="n7">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -550,14 +550,6 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n17" to="n6">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-            <attr name="layout">
-                <string>333 -19 198 392 255 393 11</string>
-            </attr>
-        </edge>
         <edge from="n17" to="n14">
             <attr name="label">
                 <string>v</string>
@@ -566,6 +558,14 @@
         <edge from="n17" to="n21">
             <attr name="label">
                 <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n17" to="n6">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+            <attr name="layout">
+                <string>333 -19 198 392 255 393 11</string>
             </attr>
         </edge>
         <edge from="n14" to="n14">
@@ -598,12 +598,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n8" to="n6">
+        <edge from="n8" to="n3">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n8" to="n3">
+        <edge from="n8" to="n6">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -643,12 +643,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n6" to="n17">
+        <edge from="n6" to="n49">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n6" to="n49">
+        <edge from="n6" to="n17">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -661,6 +661,11 @@
         <edge from="n2" to="n2">
             <attr name="label">
                 <string>flag:chao</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n36">
+            <attr name="label">
+                <string>v</string>
             </attr>
         </edge>
         <edge from="n2" to="n16">
@@ -676,11 +681,6 @@
                 <string>1000 9 498 402 426 396 11</string>
             </attr>
         </edge>
-        <edge from="n2" to="n36">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n4" to="n4">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -691,17 +691,17 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
+        <edge from="n4" to="n50">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n4" to="n2">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n4" to="n3">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n50">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -736,17 +736,17 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
+        <edge from="n3" to="n47">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n3" to="n4">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n3" to="n8">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n47">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -761,7 +761,7 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n20" to="n24">
+        <edge from="n20" to="n21">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -771,7 +771,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n20" to="n21">
+        <edge from="n20" to="n24">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -786,7 +786,7 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n21" to="n17">
+        <edge from="n21" to="n26">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -796,7 +796,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n21" to="n26">
+        <edge from="n21" to="n17">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -816,17 +816,17 @@
                 <string>flag:parede</string>
             </attr>
         </edge>
+        <edge from="n24" to="n26">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n24" to="n29">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n24" to="n20">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n24" to="n26">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -841,12 +841,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n26" to="n24">
+        <edge from="n26" to="n21">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n26" to="n21">
+        <edge from="n26" to="n24">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -866,12 +866,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n27" to="n28">
+        <edge from="n27" to="n5">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n27" to="n5">
+        <edge from="n27" to="n28">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -976,12 +976,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n32" to="n33">
+        <edge from="n32" to="n40">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n32" to="n40">
+        <edge from="n32" to="n33">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1001,17 +1001,17 @@
                 <string>flag:parede</string>
             </attr>
         </edge>
-        <edge from="n33" to="n30">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n33" to="n32">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n33" to="n41">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n33" to="n30">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1026,17 +1026,17 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n30" to="n33">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n30" to="n34">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n30" to="n42">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n30" to="n33">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1056,17 +1056,17 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n35" to="n36">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n35" to="n48">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n35" to="n42">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n35" to="n36">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1081,17 +1081,17 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n36" to="n35">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n36" to="n31">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n36" to="n2">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n36" to="n35">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1136,11 +1136,6 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n38" to="n39">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n38" to="n37">
             <attr name="label">
                 <string>v</string>
@@ -1151,6 +1146,11 @@
                 <string>v</string>
             </attr>
         </edge>
+        <edge from="n38" to="n39">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n39" to="n39">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -1161,7 +1161,7 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n39" to="n27">
+        <edge from="n39" to="n44">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1171,12 +1171,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n39" to="n0">
+        <edge from="n39" to="n27">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n39" to="n44">
+        <edge from="n39" to="n0">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1191,12 +1191,12 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n40" to="n43">
+        <edge from="n40" to="n11">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n40" to="n11">
+        <edge from="n40" to="n32">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1206,7 +1206,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n40" to="n32">
+        <edge from="n40" to="n43">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1221,12 +1221,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n41" to="n40">
+        <edge from="n41" to="n33">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n41" to="n33">
+        <edge from="n41" to="n40">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1251,7 +1251,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n42" to="n41">
+        <edge from="n42" to="n62">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1261,7 +1261,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n42" to="n62">
+        <edge from="n42" to="n41">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1316,12 +1316,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n44" to="n46">
+        <edge from="n44" to="n55">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n44" to="n55">
+        <edge from="n44" to="n46">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1336,22 +1336,22 @@
                 <string>flag:parede</string>
             </attr>
         </edge>
-        <edge from="n45" to="n46">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n45" to="n43">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n45" to="n1">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n45" to="n56">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n45" to="n46">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n45" to="n43">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1371,12 +1371,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n46" to="n45">
+        <edge from="n46" to="n7">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n46" to="n7">
+        <edge from="n46" to="n45">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1396,7 +1396,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n50" to="n47">
+        <edge from="n50" to="n4">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n50" to="n48">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1406,12 +1411,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n50" to="n4">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n50" to="n48">
+        <edge from="n50" to="n47">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1426,17 +1426,17 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n49" to="n51">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n49" to="n6">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n49" to="n21">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n49" to="n51">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1456,22 +1456,22 @@
                 <string>flag:parede</string>
             </attr>
         </edge>
-        <edge from="n47" to="n51">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n47" to="n50">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n47" to="n3">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n47" to="n54">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n51">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n47" to="n50">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1486,7 +1486,7 @@
                 <string>flag:parede</string>
             </attr>
         </edge>
-        <edge from="n51" to="n49">
+        <edge from="n51" to="n53">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1496,12 +1496,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n51" to="n8">
+        <edge from="n51" to="n49">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n51" to="n53">
+        <edge from="n51" to="n8">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1516,7 +1516,7 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n48" to="n54">
+        <edge from="n48" to="n50">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1531,7 +1531,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n48" to="n50">
+        <edge from="n48" to="n54">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1544,6 +1544,11 @@
         <edge from="n52" to="n52">
             <attr name="label">
                 <string>flag:bloco</string>
+            </attr>
+        </edge>
+        <edge from="n52" to="n49">
+            <attr name="label">
+                <string>v</string>
             </attr>
         </edge>
         <edge from="n52" to="n53">
@@ -1556,11 +1561,6 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n52" to="n49">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n53" to="n53">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -1571,17 +1571,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n53" to="n52">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n53" to="n54">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n53" to="n60">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n53" to="n52">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1591,6 +1586,11 @@
                 <string>v</string>
             </attr>
         </edge>
+        <edge from="n53" to="n54">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
         <edge from="n54" to="n54">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -1601,12 +1601,7 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n54" to="n53">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n54" to="n48">
+        <edge from="n54" to="n59">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1616,7 +1611,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n54" to="n59">
+        <edge from="n54" to="n48">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n54" to="n53">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1631,7 +1631,12 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n55" to="n57">
+        <edge from="n55" to="n44">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n55" to="n61">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1641,12 +1646,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n55" to="n44">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n55" to="n61">
+        <edge from="n55" to="n57">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1661,17 +1661,17 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n57" to="n55">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n57" to="n56">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n57" to="n46">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n57" to="n55">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1691,7 +1691,7 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n56" to="n57">
+        <edge from="n56" to="n59">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1706,7 +1706,7 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n56" to="n59">
+        <edge from="n56" to="n57">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1721,12 +1721,12 @@
                 <string>flag:bloco</string>
             </attr>
         </edge>
-        <edge from="n58" to="n56">
+        <edge from="n58" to="n43">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n58" to="n43">
+        <edge from="n58" to="n56">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1746,17 +1746,17 @@
                 <string>flag:parede</string>
             </attr>
         </edge>
-        <edge from="n59" to="n60">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n59" to="n56">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
         <edge from="n59" to="n62">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n59" to="n60">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1781,12 +1781,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n60" to="n57">
+        <edge from="n60" to="n59">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n60" to="n59">
+        <edge from="n60" to="n57">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1806,12 +1806,7 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n61" to="n37">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n61" to="n52">
+        <edge from="n61" to="n60">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1821,7 +1816,12 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n61" to="n60">
+        <edge from="n61" to="n52">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n61" to="n37">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1834,6 +1834,11 @@
         <edge from="n62" to="n62">
             <attr name="label">
                 <string>flag:chao</string>
+            </attr>
+        </edge>
+        <edge from="n62" to="n48">
+            <attr name="label">
+                <string>v</string>
             </attr>
         </edge>
         <edge from="n62" to="n59">
@@ -1851,24 +1856,19 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n62" to="n48">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
         <edge from="n25" to="n25">
             <attr name="label">
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n25" to="n19">
-            <attr name="label">
-                <string>id</string>
-            </attr>
-        </edge>
         <edge from="n25" to="n16">
             <attr name="label">
                 <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n25" to="n19">
+            <attr name="label">
+                <string>id</string>
             </attr>
         </edge>
         <edge from="n19" to="n19">
@@ -1881,14 +1881,14 @@
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n63" to="n18">
-            <attr name="label">
-                <string>id</string>
-            </attr>
-        </edge>
         <edge from="n63" to="n5">
             <attr name="label">
                 <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n63" to="n18">
+            <attr name="label">
+                <string>id</string>
             </attr>
         </edge>
         <edge from="n18" to="n18">

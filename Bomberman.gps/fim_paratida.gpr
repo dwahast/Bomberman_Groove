@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="fim_paratida">
+        <attr name="enabled">
+            <string>false</string>
+        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -11,12 +14,12 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>369 226 76 18</string>
+                <string>391 241 76 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>128 202 76 18</string>
+                <string>137 240 76 18</string>
             </attr>
         </node>
         <node id="n3">
@@ -26,12 +29,12 @@
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>161 284 34 36</string>
+                <string>157 320 34 36</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>496 287 34 36</string>
+                <string>413 314 34 36</string>
             </attr>
         </node>
         <node id="n6">
@@ -41,12 +44,22 @@
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>77 124 34 36</string>
+                <string>60 67 34 36</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n7">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n0" to="n3">
@@ -57,16 +70,6 @@
         <edge from="n0" to="n2">
             <attr name="label">
                 <string>!=</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>!=</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n7">
-            <attr name="label">
-                <string>a</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -94,14 +97,14 @@
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n2" to="n1">
-            <attr name="label">
-                <string>!=</string>
-            </attr>
-        </edge>
         <edge from="n2" to="n4">
             <attr name="label">
                 <string>not:a</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n1">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
@@ -114,9 +117,9 @@
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n3" to="n1">
+        <edge from="n3" to="n6">
             <attr name="label">
-                <string>!=</string>
+                <string>not:a</string>
             </attr>
         </edge>
         <edge from="n3" to="n2">
@@ -124,9 +127,9 @@
                 <string>!=</string>
             </attr>
         </edge>
-        <edge from="n3" to="n6">
+        <edge from="n3" to="n1">
             <attr name="label">
-                <string>not:a</string>
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">

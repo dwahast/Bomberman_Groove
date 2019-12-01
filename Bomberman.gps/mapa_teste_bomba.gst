@@ -16,7 +16,7 @@
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>156 258 76 18</string>
+                <string>243 295 76 18</string>
             </attr>
         </node>
         <node id="n6">
@@ -31,12 +31,12 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>289 272 7 18</string>
+                <string>283 271 19 19</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>384 320 43 18</string>
+                <string>378 311 54 36</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -49,12 +49,12 @@
                 <string>flag:chao</string>
             </attr>
         </edge>
-        <edge from="n0" to="n4">
+        <edge from="n0" to="n3">
             <attr name="label">
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n0" to="n3">
+        <edge from="n0" to="n4">
             <attr name="label">
                 <string>v</string>
             </attr>

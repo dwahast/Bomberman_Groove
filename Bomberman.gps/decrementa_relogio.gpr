@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
     <graph role="rule" edgeids="false" edgemode="directed" id="decrementa_relogio">
-        <attr name="enabled">
-            <string>false</string>
-        </attr>
         <attr name="$version">
             <string>curly</string>
         </attr>
@@ -19,34 +16,39 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>430 188 7 18</string>
+                <string>424 187 19 19</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>359 113 19 19</string>
+                <string>375 131 39 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>207 163 17 18</string>
+                <string>240 130 17 18</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>461 105 19 19</string>
+                <string>507 32 52 36</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>585 101 23 18</string>
+                <string>587 100 19 19</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>491 186 7 18</string>
+                <string>485 185 19 19</string>
             </attr>
         </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:Relogio</string>
+            </attr>
+        </edge>
         <edge from="n0" to="n4">
             <attr name="label">
                 <string>new:resta</string>
@@ -55,11 +57,6 @@
         <edge from="n0" to="n1">
             <attr name="label">
                 <string>del:resta</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>type:Relogio</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -82,14 +79,14 @@
                 <string>int:sub</string>
             </attr>
         </edge>
-        <edge from="n3" to="n2">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
         <edge from="n3" to="n1">
             <attr name="label">
                 <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>arg:1</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">
@@ -102,11 +99,6 @@
                 <string>prod:</string>
             </attr>
         </edge>
-        <edge from="n5" to="n1">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
         <edge from="n5" to="n6">
             <attr name="label">
                 <string>int:gt</string>
@@ -115,6 +107,11 @@
         <edge from="n5" to="n7">
             <attr name="label">
                 <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n1">
+            <attr name="label">
+                <string>arg:0</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">

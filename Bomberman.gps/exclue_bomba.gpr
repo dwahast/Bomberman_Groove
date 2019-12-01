@@ -6,52 +6,70 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>258 178 43 18</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>289 79 34 36</string>
+                <string>442 35 52 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>292 270 7 18</string>
+                <string>620 39 7 18</string>
             </attr>
         </node>
-        <node id="n3">
+        <node id="n1">
             <attr name="layout">
-                <string>434 64 76 18</string>
+                <string>300 27 34 36</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>79 44 38 36</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>417 165 34 36</string>
+                <string>113 23 42 36</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>147 157 23 18</string>
+                <string>286 298 76 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>301 158 34 36</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>123 147 42 36</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>426 209 38 36</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>460 143 76 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>type:Bomba</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>fica_no</string>
+                <string>del:type:Bomba</string>
             </attr>
         </edge>
         <edge from="n0" to="n2">
             <attr name="label">
-                <string>timer</string>
+                <string>del:timer</string>
+            </attr>
+            <attr name="layout">
+                <string>523 2 306 238 306 282 11</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>del:fica_no</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>int:0</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -66,37 +84,41 @@
         </edge>
         <edge from="n1" to="n4">
             <attr name="label">
-                <string>not:v</string>
+                <string>v</string>
             </attr>
         </edge>
         <edge from="n1" to="n5">
             <attr name="label">
                 <string>v</string>
             </attr>
-        </edge>
-        <edge from="n1" to="n6">
-            <attr name="label">
-                <string>detonando</string>
+            <attr name="layout">
+                <string>437 -16 325 66 326 151 11</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge from="n1" to="n3">
             <attr name="label">
-                <string>int:0</string>
+                <string>not:v</string>
+            </attr>
+            <attr name="layout">
+                <string>475 -16 295 65 180 144 11</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge from="n1" to="n5">
             <attr name="label">
-                <string>type:Personagem</string>
+                <string>!=</string>
+            </attr>
+            <attr name="layout">
+                <string>776 26 318 66 318 151 11</string>
             </attr>
         </edge>
-        <edge from="n3" to="n1">
+        <edge from="n1" to="n7">
             <attr name="label">
-                <string>not:a</string>
+                <string>not:v</string>
             </attr>
         </edge>
-        <edge from="n3" to="n5">
+        <edge from="n4" to="n4">
             <attr name="label">
-                <string>not:a</string>
+                <string>not:</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">
@@ -106,12 +128,37 @@
         </edge>
         <edge from="n4" to="n4">
             <attr name="label">
-                <string>flag:parede</string>
+                <string>parede</string>
             </attr>
         </edge>
         <edge from="n4" to="n1">
             <attr name="label">
-                <string>not:v</string>
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n3">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n5">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>not:</string>
             </attr>
         </edge>
         <edge from="n5" to="n5">
@@ -128,10 +175,71 @@
             <attr name="label">
                 <string>v</string>
             </attr>
+            <attr name="layout">
+                <string>554 -17 309 151 309 66 11</string>
+            </attr>
         </edge>
-        <edge from="n6" to="n6">
+        <edge from="n3" to="n3">
             <attr name="label">
-                <string>bool:true</string>
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:Mapa</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>parede</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n1">
+            <attr name="label">
+                <string>not:v</string>
+            </attr>
+            <attr name="layout">
+                <string>440 -15 177 137 295 55 11</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n1">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>type:Mapa</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>flag:parede</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n1">
+            <attr name="label">
+                <string>not:v</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n1">
+            <attr name="label">
+                <string>not:a</string>
             </attr>
         </edge>
     </graph>

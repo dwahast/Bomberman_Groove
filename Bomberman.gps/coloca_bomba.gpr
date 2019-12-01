@@ -31,22 +31,7 @@
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>543 159 43 18</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>369 325 76 18</string>
-            </attr>
-        </node>
-        <node id="n8">
-            <attr name="layout">
-                <string>63 142 34 36</string>
-            </attr>
-        </node>
-        <node id="n9">
-            <attr name="layout">
-                <string>67 248 23 18</string>
+                <string>550 165 43 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -62,11 +47,6 @@
         <edge from="n1" to="n2">
             <attr name="label">
                 <string>a</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n5">
-            <attr name="label">
-                <string>!=</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -89,14 +69,14 @@
                 <string>type:Bomba</string>
             </attr>
         </edge>
-        <edge from="n3" to="n2">
-            <attr name="label">
-                <string>new:fica_no</string>
-            </attr>
-        </edge>
         <edge from="n3" to="n6">
             <attr name="label">
                 <string>timer</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>new:fica_no</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -117,46 +97,6 @@
         <edge from="n4" to="n2">
             <attr name="label">
                 <string>not:fica_no</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>type:Personagem</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n2">
-            <attr name="label">
-                <string>not:a</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n8">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n8" to="n9">
-            <attr name="label">
-                <string>detonando</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>not:</string>
-            </attr>
-        </edge>
-        <edge from="n9" to="n9">
-            <attr name="label">
-                <string>bool:true</string>
             </attr>
         </edge>
     </graph>

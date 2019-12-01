@@ -21,12 +21,12 @@
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>70 81 34 36</string>
+                <string>65 90 43 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>72 203 23 18</string>
+                <string>90 175 7 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -52,16 +52,16 @@
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>del:a</string>
-            </attr>
-        </edge>
         <edge from="n1" to="n2">
             <attr name="label">
                 <string>new:a</string>
             </attr>
         </edge>
+        <edge from="n1" to="n0">
+            <attr name="label">
+                <string>del:a</string>
+            </attr>
+        </edge>
         <edge from="n2" to="n2">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -73,28 +73,23 @@
             </attr>
         </edge>
         <edge from="n3" to="n3">
-            <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n4">
-            <attr name="label">
-                <string>detonando</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n4">
+            <attr name="label">
+                <string>timer</string>
+            </attr>
+        </edge>
         <edge from="n4" to="n4">
             <attr name="label">
-                <string>bool:true</string>
+                <string>int:0</string>
             </attr>
         </edge>
     </graph>
