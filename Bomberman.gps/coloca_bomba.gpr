@@ -1,137 +1,137 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="decrementa_timer_bomba">
+    <graph role="rule" edgeids="false" edgemode="directed" id="coloca_bomba">
         <attr name="$version">
             <string>curly</string>
         </attr>
+        <node id="n0">
+            <attr name="layout">
+                <string>154 436 539 18</string>
+            </attr>
+        </node>
         <node id="n1">
             <attr name="layout">
-                <string>384 40 17 18</string>
+                <string>162 166 76 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>430 188 7 18</string>
+                <string>389 155 34 36</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>359 113 19 19</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>207 163 17 18</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>461 105 19 19</string>
+                <string>374 36 43 18</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>585 101 23 18</string>
+                <string>231 40 7 18</string>
             </attr>
         </node>
-        <node id="n7">
+        <node id="n4">
             <attr name="layout">
-                <string>491 186 7 18</string>
+                <string>543 159 43 18</string>
             </attr>
         </node>
-        <node id="n0">
+        <node id="n5">
             <attr name="layout">
-                <string>180 26 43 18</string>
+                <string>369 325 76 18</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>102 205 34 36</string>
+                <string>63 142 34 36</string>
             </attr>
         </node>
         <node id="n9">
             <attr name="layout">
-                <string>104 333 27 18</string>
+                <string>67 248 23 18</string>
             </attr>
         </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem: personagem coloca bomba no chao, caso nao haja outro personagem nem outra bomba</string>
+            </attr>
+        </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>int:</string>
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>int:1</string>
+                <string>type:Mapa</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>flag:chao</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>prod:</string>
+                <string>new:</string>
             </attr>
         </edge>
-        <edge from="n3" to="n2">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n4">
-            <attr name="label">
-                <string>int:sub</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n1">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>int:</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n1">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n6">
-            <attr name="label">
-                <string>int:gt</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n7">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>bool:true</string>
-            </attr>
-        </edge>
-        <edge from="n7" to="n7">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
+        <edge from="n3" to="n3">
             <attr name="label">
                 <string>type:Bomba</string>
             </attr>
         </edge>
-        <edge from="n0" to="n4">
+        <edge from="n3" to="n2">
             <attr name="label">
-                <string>new:timer</string>
+                <string>new:fica_no</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n3" to="n6">
             <attr name="label">
-                <string>del:timer</string>
+                <string>timer</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>int:3</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n2">
+            <attr name="label">
+                <string>not:fica_no</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n2">
+            <attr name="label">
+                <string>not:a</string>
             </attr>
         </edge>
         <edge from="n8" to="n8">

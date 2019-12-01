@@ -1,98 +1,88 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="move_personagem">
+    <graph role="rule" edgeids="false" edgemode="directed" id="inicia_detonacao_bomba">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>249 83 34 36</string>
+                <string>211 175 43 18</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>396 98 76 18</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>246 177 34 36</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>70 81 34 36</string>
+                <string>91 171 7 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>72 203 23 18</string>
+                <string>216 44 34 36</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>436 52 27 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>387 125 23 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>type:Mapa</string>
+                <string>type:Bomba</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n0" to="n1">
             <attr name="label">
-                <string>flag:chao</string>
+                <string>timer</string>
             </attr>
         </edge>
-        <edge from="n0" to="n2">
+        <edge from="n0" to="n4">
             <attr name="label">
-                <string>v</string>
-            </attr>
-            <attr name="layout">
-                <string>442 8 266 101 263 195 11</string>
+                <string>fica_no</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>type:Personagem</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>del:a</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>new:a</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n4">
-            <attr name="label">
-                <string>detonando</string>
+                <string>int:0</string>
             </attr>
         </edge>
         <edge from="n4" to="n4">
+            <attr name="label">
+                <string>type:Mapa</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>flag:chao</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n2">
+            <attr name="label">
+                <string>detonando</string>
+            </attr>
+            <attr name="layout">
+                <string>405 -3 255 61 428 61 11</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n3">
+            <attr name="label">
+                <string>new:detonando</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
             <attr name="label">
                 <string>not:</string>
             </attr>
         </edge>
-        <edge from="n4" to="n4">
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>bool:false</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
             <attr name="label">
                 <string>bool:true</string>
             </attr>

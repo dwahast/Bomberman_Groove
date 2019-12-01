@@ -19,9 +19,19 @@
                 <string>337 145 34 36</string>
             </attr>
         </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>191 176 28 18</string>
+            </attr>
+        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>timer</string>
             </attr>
         </edge>
         <edge from="n0" to="n3">
@@ -29,9 +39,9 @@
                 <string>fica_no</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n0" to="n2">
             <attr name="label">
-                <string>timer</string>
+                <string>detonando</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -47,6 +57,11 @@
         <edge from="n3" to="n3">
             <attr name="label">
                 <string>flag:chao</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>bool:</string>
             </attr>
         </edge>
     </graph>

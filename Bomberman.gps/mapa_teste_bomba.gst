@@ -6,7 +6,27 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>340 60 34 36</string>
+                <string>395 182 34 36</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>263 189 34 36</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>156 258 76 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>456 133 76 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>515 190 38 36</string>
             </attr>
         </node>
         <node id="n2">
@@ -16,27 +36,7 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>329 198 43 18</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>208 67 34 36</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>460 68 38 36</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>101 136 76 18</string>
-            </attr>
-        </node>
-        <node id="n6">
-            <attr name="layout">
-                <string>401 11 76 18</string>
+                <string>384 320 43 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -59,26 +59,6 @@
                 <string>v</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>type:Bomba</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n0">
-            <attr name="label">
-                <string>fica_no</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>timer</string>
-            </attr>
-        </edge>
         <edge from="n4" to="n4">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -90,21 +70,6 @@
             </attr>
         </edge>
         <edge from="n4" to="n0">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>flag:parede</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n0">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -127,6 +92,41 @@
         <edge from="n6" to="n0">
             <attr name="label">
                 <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:Mapa</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>flag:parede</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n0">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>int:0</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n2">
+            <attr name="label">
+                <string>timer</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n0">
+            <attr name="label">
+                <string>fica_no</string>
             </attr>
         </edge>
     </graph>

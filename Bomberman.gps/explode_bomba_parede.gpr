@@ -24,6 +24,16 @@
                 <string>201 42 34 36</string>
             </attr>
         </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>52 49 23 18</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>306 140 23 18</string>
+            </attr>
+        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Bomba</string>
@@ -77,6 +87,26 @@
         <edge from="n4" to="n3">
             <attr name="label">
                 <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n2">
+            <attr name="label">
+                <string>detonando</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n5">
+            <attr name="label">
+                <string>detonando</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>bool:true</string>
             </attr>
         </edge>
     </graph>

@@ -6,17 +6,17 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>51 24 76 18</string>
+                <string>51 15 76 36</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>67 126 36 18</string>
+                <string>75 125 19 19</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>255 36 34 36</string>
+                <string>263 15 34 36</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -24,14 +24,14 @@
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>id</string>
-            </attr>
-        </edge>
         <edge from="n0" to="n2">
             <attr name="label">
                 <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>id</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
