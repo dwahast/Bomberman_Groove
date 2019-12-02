@@ -74,12 +74,12 @@
                 <string>del:flag:terminou</string>
             </attr>
         </edge>
-        <edge from="n4" to="n2">
+        <edge from="n4" to="n5">
             <attr name="label">
                 <string>!=</string>
             </attr>
         </edge>
-        <edge from="n4" to="n5">
+        <edge from="n4" to="n2">
             <attr name="label">
                 <string>!=</string>
             </attr>
