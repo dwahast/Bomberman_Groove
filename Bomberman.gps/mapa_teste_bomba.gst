@@ -31,12 +31,17 @@
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>283 271 19 19</string>
+                <string>289 272 7 18</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>378 311 54 36</string>
+                <string>384 320 43 18</string>
+            </attr>
+        </node>
+        <node id="n7">
+            <attr name="layout">
+                <string>61 353 47 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
@@ -127,6 +132,11 @@
         <edge from="n1" to="n0">
             <attr name="label">
                 <string>fica_no</string>
+            </attr>
+        </edge>
+        <edge from="n7" to="n7">
+            <attr name="label">
+                <string>type:MORTO</string>
             </attr>
         </edge>
     </graph>

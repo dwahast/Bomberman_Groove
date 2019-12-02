@@ -11,7 +11,7 @@
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>162 166 76 18</string>
+                <string>162 148 76 54</string>
             </attr>
         </node>
         <node id="n2">
@@ -21,7 +21,7 @@
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>374 36 43 18</string>
+                <string>370 27 50 36</string>
             </attr>
         </node>
         <node id="n6">
@@ -34,6 +34,11 @@
                 <string>550 165 43 18</string>
             </attr>
         </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>816 159 76 36</string>
+            </attr>
+        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>rem: personagem coloca bomba no chao, caso nao haja outro personagem nem outra bomba</string>
@@ -42,6 +47,16 @@
         <edge from="n1" to="n1">
             <attr name="label">
                 <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>new:flag:terminou</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>not:flag:terminou</string>
             </attr>
         </edge>
         <edge from="n1" to="n2">
@@ -67,6 +82,11 @@
         <edge from="n3" to="n3">
             <attr name="label">
                 <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>flag:terminou</string>
             </attr>
         </edge>
         <edge from="n3" to="n6">
@@ -97,6 +117,21 @@
         <edge from="n4" to="n2">
             <attr name="label">
                 <string>not:fica_no</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>flag:VENCEU</string>
             </attr>
         </edge>
     </graph>

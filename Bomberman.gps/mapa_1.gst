@@ -324,6 +324,11 @@
                 <string>24 139 25 18</string>
             </attr>
         </node>
+        <node id="n64">
+            <attr name="layout">
+                <string>17 334 48 18</string>
+            </attr>
+        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Mapa</string>
@@ -624,6 +629,11 @@
             </attr>
         </edge>
         <edge from="n16" to="n2">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n16" to="n31">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -937,6 +947,11 @@
             </attr>
         </edge>
         <edge from="n31" to="n36">
+            <attr name="label">
+                <string>v</string>
+            </attr>
+        </edge>
+        <edge from="n31" to="n16">
             <attr name="label">
                 <string>v</string>
             </attr>
@@ -1894,6 +1909,11 @@
         <edge from="n18" to="n18">
             <attr name="label">
                 <string>string:"p1"</string>
+            </attr>
+        </edge>
+        <edge from="n64" to="n64">
+            <attr name="label">
+                <string>type:MORTO</string>
             </attr>
         </edge>
     </graph>

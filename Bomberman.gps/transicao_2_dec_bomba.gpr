@@ -1,127 +1,171 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="decrementa_timer_bomba">
+    <graph role="rule" edgeids="false" edgemode="directed" id="transicao_2_dec_bomba">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n1">
             <attr name="layout">
-                <string>369 27 17 18</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>374 210 7 18</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>368 120 19 19</string>
-            </attr>
-        </node>
-        <node id="n4">
-            <attr name="layout">
-                <string>196 121 17 18</string>
-            </attr>
-        </node>
-        <node id="n5">
-            <attr name="layout">
-                <string>462 29 19 19</string>
-            </attr>
-        </node>
-        <node id="n6">
-            <attr name="layout">
-                <string>562 29 23 18</string>
+                <string>318 77 89 18</string>
             </attr>
         </node>
         <node id="n7">
             <attr name="layout">
-                <string>469 91 7 18</string>
+                <string>579 185 17 18</string>
             </attr>
         </node>
-        <node id="n0">
+        <node id="n9">
             <attr name="layout">
-                <string>180 26 43 18</string>
+                <string>584 368 7 18</string>
+            </attr>
+        </node>
+        <node id="n8">
+            <attr name="layout">
+                <string>578 278 19 19</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>406 279 17 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>672 187 19 19</string>
+            </attr>
+        </node>
+        <node id="n10">
+            <attr name="layout">
+                <string>772 187 23 18</string>
+            </attr>
+        </node>
+        <node id="n4">
+            <attr name="layout">
+                <string>679 249 7 18</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>382 175 59 36</string>
+            </attr>
+        </node>
+        <node id="n5">
+            <attr name="layout">
+                <string>182 359 76 36</string>
             </attr>
         </node>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>int:</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>int:1</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n3">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n2">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n4">
-            <attr name="label">
-                <string>int:sub</string>
-            </attr>
-        </edge>
-        <edge from="n3" to="n1">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>int:</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>prod:</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n7">
-            <attr name="label">
-                <string>arg:1</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n1">
-            <attr name="label">
-                <string>arg:0</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n6">
-            <attr name="label">
-                <string>int:gt</string>
-            </attr>
-        </edge>
-        <edge from="n6" to="n6">
-            <attr name="label">
-                <string>bool:true</string>
+                <string>type:NOVO_TURNO</string>
             </attr>
         </edge>
         <edge from="n7" to="n7">
             <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n9" to="n9">
+            <attr name="label">
+                <string>int:1</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n9">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n3">
+            <attr name="label">
+                <string>int:sub</string>
+            </attr>
+            <attr name="layout">
+                <string>0 -1 571 288 430 288 11</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n7">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>int:</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>prod:</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n4">
+            <attr name="label">
+                <string>arg:1</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n7">
+            <attr name="label">
+                <string>arg:0</string>
+            </attr>
+            <attr name="layout">
+                <string>472 17 667 194 603 194 11</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n10">
+            <attr name="label">
+                <string>int:gt</string>
+            </attr>
+            <attr name="layout">
+                <string>0 0 697 196 765 196 11</string>
+            </attr>
+        </edge>
+        <edge from="n10" to="n10">
+            <attr name="label">
+                <string>bool:true</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
                 <string>int:0</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
+        <edge from="n2" to="n2">
             <attr name="label">
                 <string>type:Bomba</string>
             </attr>
         </edge>
-        <edge from="n0" to="n4">
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>del:flag:terminou</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
             <attr name="label">
                 <string>new:timer</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n2" to="n7">
             <attr name="label">
                 <string>del:timer</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n5">
+            <attr name="label">
+                <string>flag:VENCEU</string>
             </attr>
         </edge>
     </graph>

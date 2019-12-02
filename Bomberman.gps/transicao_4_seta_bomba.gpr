@@ -1,32 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="type" edgeids="false" edgemode="directed" id="relogio_type">
+    <graph role="rule" edgeids="false" edgemode="directed" id="transicao_4_seta_bomba">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>195 69 47 18</string>
+                <string>214 63 141 18</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>209 158 17 18</string>
+                <string>267 189 43 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>type:Relogio</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n1">
-            <attr name="label">
-                <string>resta</string>
+                <string>type:NOVO_TURNO_BOMBA</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>int:</string>
+                <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>new:flag:terminou</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n1">
+            <attr name="label">
+                <string>not:flag:terminou</string>
             </attr>
         </edge>
     </graph>

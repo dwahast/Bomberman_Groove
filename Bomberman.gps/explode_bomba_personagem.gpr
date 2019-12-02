@@ -29,6 +29,16 @@
                 <string>290 373 336 36</string>
             </attr>
         </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>80 188 48 18</string>
+            </attr>
+        </node>
+        <node id="n6">
+            <attr name="layout">
+                <string>753 156 76 36</string>
+            </attr>
+        </node>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>type:Bomba</string>
@@ -61,17 +71,17 @@
         </edge>
         <edge from="n2" to="n2">
             <attr name="label">
-                <string>del:</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
                 <string>type:Personagem</string>
             </attr>
         </edge>
         <edge from="n2" to="n4">
             <attr name="label">
-                <string>a</string>
+                <string>del:a</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>new:a</string>
             </attr>
         </edge>
         <edge from="n5" to="n5">
@@ -82,6 +92,26 @@
         <edge from="n5" to="n5">
             <attr name="label">
                 <string>rem:usar flag para começo e fim da explosão</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:MORTO</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>not:</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n6" to="n6">
+            <attr name="label">
+                <string>flag:VENCEU</string>
             </attr>
         </edge>
     </graph>

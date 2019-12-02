@@ -1,67 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="type" edgeids="false" edgemode="directed" id="personagem_type">
+    <graph role="rule" edgeids="false" edgemode="directed" id="transicao_3_turno_timer_bombas">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>51 24 76 18</string>
-            </attr>
-        </node>
-        <node id="n1">
-            <attr name="layout">
-                <string>66 125 36 18</string>
+                <string>108 61 141 18</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>263 15 34 36</string>
+                <string>304 59 50 36</string>
+            </attr>
+        </node>
+        <node id="n1">
+            <attr name="layout">
+                <string>113 98 141 18</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>201 118 47 18</string>
+                <string>131 138 89 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>type:Personagem</string>
+                <string>new:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n2">
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>a</string>
+                <string>type:NOVO_TURNO_BOMBA</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n2" to="n2">
             <attr name="label">
-                <string>id</string>
+                <string>not:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n3">
+        <edge from="n2" to="n2">
             <attr name="label">
-                <string>a</string>
+                <string>type:Bomba</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>not:flag:terminou</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
-                <string>string:</string>
+                <string>not:</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
+        <edge from="n1" to="n1">
             <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>flag:chao</string>
+                <string>type:NOVO_TURNO_BOMBA</string>
             </attr>
         </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>type:MORTO</string>
+                <string>del:</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>type:NOVO_TURNO</string>
             </attr>
         </edge>
     </graph>

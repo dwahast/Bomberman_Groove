@@ -1,80 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="move_personagem">
+    <graph role="rule" edgeids="false" edgemode="directed" id="vence_partida">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>249 83 34 36</string>
+                <string>348 268 48 18</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>396 80 76 54</string>
-            </attr>
-        </node>
-        <node id="n2">
-            <attr name="layout">
-                <string>246 177 34 36</string>
-            </attr>
-        </node>
-        <node id="n3">
-            <attr name="layout">
-                <string>65 90 43 18</string>
+                <string>337 158 76 18</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>90 175 7 18</string>
+                <string>336 25 76 36</string>
+            </attr>
+        </node>
+        <node id="n2">
+            <attr name="layout">
+                <string>506 39 34 18</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>228 207 76 18</string>
             </attr>
         </node>
         <node id="n5">
             <attr name="layout">
-                <string>791 133 76 36</string>
+                <string>468 204 76 18</string>
             </attr>
         </node>
         <edge from="n0" to="n0">
             <attr name="label">
-                <string>type:Mapa</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
-        <edge from="n0" to="n2">
-            <attr name="label">
-                <string>v</string>
-            </attr>
-            <attr name="layout">
-                <string>442 8 266 101 263 195 11</string>
+                <string>type:MORTO</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
             <attr name="label">
                 <string>type:Personagem</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>new:flag:terminou</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n1">
-            <attr name="label">
-                <string>not:flag:terminou</string>
-            </attr>
-        </edge>
-        <edge from="n1" to="n2">
-            <attr name="label">
-                <string>new:a</string>
             </attr>
         </edge>
         <edge from="n1" to="n0">
             <attr name="label">
-                <string>del:a</string>
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n4">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n1" to="n5">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>type:Personagem</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n4">
+            <attr name="label">
+                <string>new:flag:VENCEU</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n2">
+            <attr name="label">
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n3">
+            <attr name="label">
+                <string>!=</string>
+            </attr>
+        </edge>
+        <edge from="n4" to="n5">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n2" to="n2">
@@ -82,34 +89,19 @@
                 <string>type:Mapa</string>
             </attr>
         </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>flag:chao</string>
-            </attr>
-        </edge>
         <edge from="n3" to="n3">
             <attr name="label">
-                <string>not:</string>
+                <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n3" to="n3">
+        <edge from="n3" to="n0">
             <attr name="label">
-                <string>type:Bomba</string>
+                <string>a</string>
             </attr>
         </edge>
-        <edge from="n3" to="n4">
+        <edge from="n3" to="n1">
             <attr name="label">
-                <string>timer</string>
-            </attr>
-        </edge>
-        <edge from="n4" to="n4">
-            <attr name="label">
-                <string>int:0</string>
-            </attr>
-        </edge>
-        <edge from="n5" to="n5">
-            <attr name="label">
-                <string>not:</string>
+                <string>!=</string>
             </attr>
         </edge>
         <edge from="n5" to="n5">
@@ -117,9 +109,14 @@
                 <string>type:Personagem</string>
             </attr>
         </edge>
-        <edge from="n5" to="n5">
+        <edge from="n5" to="n0">
             <attr name="label">
-                <string>flag:VENCEU</string>
+                <string>a</string>
+            </attr>
+        </edge>
+        <edge from="n5" to="n3">
+            <attr name="label">
+                <string>!=</string>
             </attr>
         </edge>
     </graph>
